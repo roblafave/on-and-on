@@ -722,9 +722,34 @@ fieldset[disabled] .btn-link:focus {
 
 /* About Styles */
 
+.appointments-hero-container-img {
+  position: relative;
+  background: #ffffff url(../assets/images/photos/spa-salt-candles.jpg) center center/cover no-repeat;
+  min-height: 250px;
+  color: white;
+}
+
+@media (min-width: 500px) {
+  .appointments-hero-container-img {
+    min-height: 350px;
+  }
+}
+
+@media (min-width: 768px) {
+  .appointments-hero-container-img {
+    min-height: 500px;
+  }
+}
+
+@media (min-width: 992px) {
+  .appointments-hero-container-img {
+    min-height: 500px;
+  }
+}
+
 .about-hero-container-img {
   position: relative;
-  background: #ffffff url('https://firebasestorage.googleapis.com/v0/b/builtbygirls-4e8f7.appspot.com/o/Assets%2FWeb%2FImages%2FPhotos%2Fabout-hero2.jpg?alt=media&token=113a48a2-3f68-419b-a662-b6ebe7be6072') center center/cover no-repeat;
+  background: #ffffff url(../assets/images/photos/spa-green.jpg) center center/cover no-repeat;
   min-height: 250px;
   color: white;
 }
@@ -2123,4 +2148,8 @@ select {
 
 .mb-120 {
   margin-bottom: 120px;
+}
+
+.mb-200 {
+  margin-bottom: 200px;
 }

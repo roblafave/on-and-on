@@ -15,14 +15,16 @@ import Page404 from './pages/Page404';
 
 // Sign Up
 import Signup1 from './signup/Step1';
-//import Signup2 from './signup/2';
-//import Signup3 from './signup/3';
+import Signup2 from './signup/Step2';
+import Signup3 from './signup/Step3';
 
 // Page Title Logic
 let pageMeta = { /* browser title, page header */
   '/services': { title: 'Services', header: 'Services' },
   '/appointments': { title: 'Appointments', header: 'Appointments' },
   '/welcome': { title: 'Welcome', header: 'Welcome' },
+  '/welcome/2': { title: 'Welcome', header: 'Welcome' },
+  '/welcome/3': { title: 'Welcome', header: 'Welcome' },
   default: { title: 'Welcome!', header: 'Welcome!' },
 };
 
@@ -52,6 +54,8 @@ ReactDOM.render(
 			<Route path='/services' component={Services}  onEnter={updateTitle} />
 			<Route path='/appointments' component={Appointments} onEnter={updateTitle} />
 			<Route path='/welcome' component={Signup1} onEnter={updateTitle} />
+      <Route path='/welcome/2' component={Signup2} onEnter={updateTitle} />
+      <Route path='/welcome/3' component={Signup3} onEnter={updateTitle} />
 			<Route path='*' component={Page404} onEnter={updateTitle} />
 
 		</Route>

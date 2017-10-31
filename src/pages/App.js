@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import '../assets/App.css';
+import '../assets/signature-pad.css';
 // import fire from '../fire';
 // import { Link } from 'react-router';
 //import Navbar from '../components/Navbar';

@@ -32,7 +32,7 @@
                 <path d="M70.5,25 L215.146118,25" id="Line" stroke="#B0CED5" stroke-width="2" stroke-linecap="square" opacity="0.3"></path>
                 <g id="1">
                     <use id="Oval" stroke="#B0CED5" mask="url(#mask-6)" stroke-width="4" opacity="0.3" xlink:href="#path-5"></use>
-                    <circle id="Oval" fill="rgba(254,247,237,1)" cx="25" cy="25" r="5"></circle>
+                    <circle id="Oval" fill="rgba(214,181,164,1)" cx="25" cy="25" r="5"></circle>
                 </g>
             </g>
         </g>
