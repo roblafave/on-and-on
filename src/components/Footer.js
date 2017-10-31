@@ -19,37 +19,33 @@ class Footer extends Component {
 						<div className='row'>
 							<div className='col-sm-3'></div>
 							<div className='col-sm-2 footer-nav-item'><Link to='/'>HOME</Link></div>
-							<div className='col-sm-2 footer-nav-item'><Link to='/treatments'>TREATMENTS</Link></div>
-							<div className='col-sm-2 footer-nav-item'><Link to='/scheduling'>SCHEDULING</Link></div>
+							<div className='col-sm-2 footer-nav-item'><Link to='/services'>SERVICES</Link></div>
+							<div className='col-sm-2 footer-nav-item'><Link to='/appointments'>APPOINTMENTS</Link></div>
 							<div className='col-sm-3'></div>
 						</div>
 					</nav>
 					<hr className='footer-hr'/>
 
-					<section className='footer-brand-container mt-50'>
-						<Link to='/'><img src={ logoW } style={{ width: 250 }} alt='BUILTBYGIRLS' /></Link>
-					</section>
-
 					<nav className='social-nav mt-20'>
 
-						<a className='social-instagram' href='https://instagram.com/builtbygirls' target='_blank'>
-							<img src={ socialInstagramW } alt='#BUILTBYGIRLS Girls Who Fund' className='social-instagram-icon' />
+						<a className='social-instagram' href='https://instagram.com/onandon' target='_blank'>
+							<img src={ socialInstagramW } alt='On & On' className='social-instagram-icon' />
 						</a>
 
-						<a className='social-twitter' href='https://twitter.com/builtbygirls' target='_blank'>
-							<img src={ socialTwitterW } alt='#BUILTBYGIRLS Girls Who Fund' className='social-twitter-icon' />
+						<a className='social-twitter' href='https://twitter.com/onandon' target='_blank'>
+							<img src={ socialTwitterW } alt='On & On' className='social-twitter-icon' />
 						</a>
 
-						<a className='social-facebook' href='https://facebook.com/builtbygirls' target='_blank'>
-							<img src={ socialFBW } alt='#BUILTBYGIRLS Girls Who Fund' className='social-facebook-icon' />
+						<a className='social-facebook' href='https://facebook.com/onandon' target='_blank'>
+							<img src={ socialFBW } alt='On & On' className='social-facebook-icon' />
 						</a>
 					</nav>
 
 					<section className='footer-legal-container mb-20'>
 						<p>
-							<a href='http://privacy.aol.com/privacy-policy/' target='_blank'>Privacy Policy</a> | <a href='http://legal.aol.com/TOS/' target='_blank'>Terms of Service</a>
+							<a href='#' target='_blank'>Privacy Policy</a> | <a href='#' target='_blank'>Terms of Service</a>
 							<br />
-							&copy; 2017 AOL, Inc. All rights reserved.
+							&copy; 2017 The Great Rearranged, LLC. All rights reserved.
 						</p>
 
 					</section>

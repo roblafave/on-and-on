@@ -32,12 +32,12 @@ body {
 }
 
 a {
-    color: #0000AD;
+    color: #B0CED5;
     text-decoration: none;
 }
 
 a:hover {
-    color: #0000fa;
+    color: rgba(51,51,51,1);
     text-decoration: none;
 }
 
@@ -45,7 +45,7 @@ h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
     font-family: 'Choplin', Georgia, serif ;
     font-weight: 500;
     line-height: 1.1;
-    color: #0000AD;
+    color: #B0CED5;
     text-align: center;
 }
 
@@ -70,7 +70,7 @@ p {
 /* Email Capture Styles */
 .email-capture-header {
   height: 3px;
-  background-color: #0000AD;
+  background-color: #B0CED5;
 }
 
 .email-capture {
@@ -103,7 +103,7 @@ p {
 
 .btn {
   background-image: none;
-  border: 1px solid #0000AD;
+  border: 1px solid #B0CED5;
   padding: 10px 20px;
   font-size: 18px;
   border-radius: 0px;
@@ -120,7 +120,7 @@ p {
 .btn:hover,
 .btn:focus,
 .btn.focus {
-  color: #0000ad;
+  color: #B0CED5;
   text-decoration: none;
 }
 .btn:active,
@@ -144,27 +144,27 @@ fieldset[disabled] a.btn {
   pointer-events: none;
 }
 .btn-default {
-  color: #0000ad;
+  color: #B0CED5;
   background-color: #ffffff;
-  border-color: #0000ad;
+  border-color: #B0CED5;
 }
 .btn-default:focus,
 .btn-default.focus {
-  color: #0000ad;
+  color: #B0CED5;
   background-color: #ffffff;
   border-color: #00002e;
 }
 .btn-default:hover {
-  color: #0000fa;
+  color: rgba(51,51,51,1);
   background-color: #ffffff;
-  border-color: #0000fa;
+  border-color: rgba(51,51,51,1);
 }
 .btn-default:active,
 .btn-default.active,
 .open > .dropdown-toggle.btn-default {
-  color: #0000fa;
+  color: rgba(51,51,51,1);
   background-color: #ffffff;
-  border-color: #0000fa;
+  border-color: rgba(51,51,51,1);
 }
 .btn-default:active:hover,
 .btn-default.active:hover,
@@ -175,9 +175,9 @@ fieldset[disabled] a.btn {
 .btn-default:active.focus,
 .btn-default.active.focus,
 .open > .dropdown-toggle.btn-default.focus {
-  color: #0000fa;
+  color: rgba(51,51,51,1);
   background-color: #ffffff;
-  border-color: #0000fa;
+  border-color: rgba(51,51,51,1);
 }
 .btn-default:active,
 .btn-default.active,
@@ -194,11 +194,11 @@ fieldset[disabled] .btn-default:focus,
 .btn-default[disabled].focus,
 fieldset[disabled] .btn-default.focus {
   background-color: #ffffff;
-  border-color: #0000ad;
+  border-color: #B0CED5;
 }
 .btn-default .badge {
   color: #ffffff;
-  background-color: #0000ad;
+  background-color: #B0CED5;
 }
 
 .btn-back {
@@ -257,10 +257,10 @@ fieldset[disabled] .btn-back.focus {
 
 .btn-primary {
   color: #ffffff;
-  background-color: #0000AD;
-  border-color: #0000AD;
+  background-color: #B0CED5;
+  border-color: #B0CED5;
   background-image: none;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0000AD', endColorstr='#0000AD', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#B0CED5', endColorstr='#B0CED5', GradientType=0);
   filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
   background-repeat: none;
   border-color: rgba(0,0,173,1);
@@ -270,20 +270,20 @@ fieldset[disabled] .btn-back.focus {
 .btn-primary:focus,
 .btn-primary.focus {
   color: #ffffff;
-  background-color: #0000fa;
-  border-color: #0000fa;
+  background-color: rgba(51,51,51,1);
+  border-color: rgba(51,51,51,1);
   background-image: none;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0000AD', endColorstr='#0000AD', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#B0CED5', endColorstr='#B0CED5', GradientType=0);
   filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
   background-repeat: none;
   border-color: rgba(0,0,173,1);
 }
 .btn-primary:hover {
   color: #ffffff;
-  background-color: #0000fa;
-  border-color: #0000fa;
+  background-color: rgba(51,51,51,1);
+  border-color: rgba(51,51,51,1);
   background-image: none;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0000AD', endColorstr='#0000AD', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#B0CED5', endColorstr='#B0CED5', GradientType=0);
   filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
   background-repeat: none;
   border-color: rgba(0,0,173,1);
@@ -292,8 +292,8 @@ fieldset[disabled] .btn-back.focus {
 .btn-primary.active,
 .open > .dropdown-toggle.btn-primary {
   color: #ffffff;
-  background-color: #0000fa;
-  border-color: #0000fa;
+  background-color: rgba(51,51,51,1);
+  border-color: rgba(51,51,51,1);
 }
 .btn-primary:active:hover,
 .btn-primary.active:hover,
@@ -305,10 +305,10 @@ fieldset[disabled] .btn-back.focus {
 .btn-primary.active.focus,
 .open > .dropdown-toggle.btn-primary.focus {
   color: #ffffff;
-  background-color: #0000fa;
-  border-color: #0000fa;
+  background-color: rgba(51,51,51,1);
+  border-color: rgba(51,51,51,1);
   background-image: none;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0000AD', endColorstr='#0000AD', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#B0CED5', endColorstr='#B0CED5', GradientType=0);
   filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
   background-repeat: none;
   border-color: rgba(0,0,173,1);
@@ -327,8 +327,8 @@ fieldset[disabled] .btn-primary:focus,
 .btn-primary.disabled.focus,
 .btn-primary[disabled].focus,
 fieldset[disabled] .btn-primary.focus {
-  background-color: #0000fa;
-  border-color: #0000fa;
+  background-color: rgba(51,51,51,1);
+  border-color: rgba(51,51,51,1);
 }
 .btn-primary .badge {
   color: #337ab7;
@@ -626,7 +626,7 @@ fieldset[disabled] .btn-link:focus {
 
 /* General */
 
-.divider-honey {
+.divider-clay {
   margin: 20px auto 10px auto;
   height: 4px;
   width: 50px;
@@ -773,12 +773,12 @@ fieldset[disabled] .btn-link:focus {
   padding: 50px 0px;
 }
 
-.bg-honey {
-  background-color: #FCB94C;
+.bg-sand {
+  background-color: rgba(254,247,237,1);
   color: #ffffff;
 }
 
-.bg-honey h1, .bg-honey h2, .bg-honey h3, .bg-honey h4, .bg-honey h5, .bg-honey h6 {
+.bg-sand h1, .bg-sand h2, .bg-sand h3, .bg-sand h4, .bg-sand h5, .bg-sand h6 {
   color: #ffffff;
 }
 
@@ -928,7 +928,7 @@ label {
 
 .form-control:focus {
     border: none;
-    border-bottom: 1px solid #0000AD;
+    border-bottom: 1px solid #B0CED5;
     outline: 0;
     -webkit-box-shadow: none;
     box-shadow: none;
@@ -984,7 +984,7 @@ select {
   font-family: 'Avenir', Georgia;
   font-size: 16px;
   text-align: center;
-  color: #0000AD;
+  color: #B0CED5;
 }
 
 .signup-form-title h3 {
@@ -1152,11 +1152,11 @@ select {
 }
 
 .navbar-default .navbar-nav>li>a {
-    color: #0000AD;
+    color: #B0CED5;
     font-size: 18px;
 }
 .navbar-default .navbar-nav>li>a:hover {
-    color: #0000fa;
+    color: rgba(51,51,51,1);
     font-size: 18px;
 }
 
@@ -1194,7 +1194,7 @@ select {
 }
 
 .navbar-mobile .btn-link:hover {
-  color: #0000fa;
+  color: rgba(51,51,51,1);
   text-decoration: none;
 }
 
@@ -1338,7 +1338,7 @@ select {
 /* Footer Styles */
 
 .footer-container {
-  background-color: #fcb94c;
+  background-color: rgba(254,247,237,1);
 }
 
 .footer-nav-container {
@@ -1443,7 +1443,7 @@ select {
   border-bottom-left-radius: 4px;
   border-bottom-right-radius: 4px;
   text-align: center;
-  background-color: #FCB94C; /*0000AD*/
+  background-color: rgba(254,247,237,1); /*B0CED5*/
   color: #fff;
   background-image: none;
   padding: 14px 20px;
@@ -1670,7 +1670,7 @@ select {
   padding: 7px 8px;
   height:35px;
   width: 35px;
-  background-color: #FCB94C;
+  background-color: rgba(254,247,237,1);
   color: rgba(255,255,255,1);
   border-radius: 2px;
   z-index: 100;
@@ -1753,7 +1753,7 @@ select {
   font-family: 'Avenir', sans-serif;
   text-transform: uppercase;
   text-align: left;
-  color: #FCB94C;
+  color: rgba(254,247,237,1);
   font-weight: bold;
   margin: 10px 0px 20px 0px;
 }
@@ -1787,7 +1787,7 @@ select {
 .guide-protip {
   padding: 0px 20px 0px 20px;
   margin: 0px 0px 50px 0px;
-  color: #0000AD;
+  color: #B0CED5;
 }
 
 .guide-protip-title {
@@ -2123,12 +2123,12 @@ select {
 .slick-dots li button:focus:before
 {
     opacity: .50;
-    color: #FCB94C;
+    color: rgba(254,247,237,1);
 }
 
 .slick-dots li.slick-active button:before {
     opacity: 1;
-    color: #FCB94C;
+    color: rgba(254,247,237,1);
 }
 
 .slick-dots li button:before {
@@ -2172,7 +2172,7 @@ select {
   content: ''
 }
 .slick-arrow .glyphicon {
-  color: #0000AD;
+  color: #B0CED5;
   font-size: 18px;
 }
 

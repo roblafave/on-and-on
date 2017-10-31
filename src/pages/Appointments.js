@@ -18,7 +18,7 @@ import photoTory from '../assets/images/photos/team/tory.jpg';
 
 
 
-class Scheduling extends Component {
+class Appointments extends Component {
 
 	// constructor(props) {
 	//	 super(props);
@@ -33,7 +33,7 @@ class Scheduling extends Component {
 						<div className='row hero-container-text'>
 							<div className='col-sm-12'>
 								<h2>Builders. Creators. Innovators.</h2>
-								<div className='divider-honey mt-30'></div>
+								<div className='divider-clay mt-30'></div>
 							</div>
 						</div>
 						<div className='row'>
@@ -59,7 +59,7 @@ class Scheduling extends Component {
 
 							<div className='col-sm-4'>
 								<article className='team-member-container'>
-									<img src={ photoNisha } width={ '200px' }alt='Nisha Dua, Founder at #BUILTBYGIRLS' className='img-circle team-member-img' />
+									<img src={ photoNisha } width={ '200px' }alt='Nisha Dua, Founder at On & On' className='img-circle team-member-img' />
 									<div className='team-member-name'>
 										<h4>Nisha Dua</h4>
 									</div>
@@ -70,7 +70,7 @@ class Scheduling extends Component {
 
 							<div className='col-sm-4'>
 								<article className='team-member-container'>
-									<img src={ photoTory } width={ '200px' }alt='Tory Marlin, Marketing & Partnerships at #BUILTBYGIRLS' className='img-circle team-member-img' />
+									<img src={ photoTory } width={ '200px' }alt='Tory Marlin, Marketing & Partnerships at On & On' className='img-circle team-member-img' />
 									<div className='team-member-name'>
 											<h4>Tory Marlin</h4>
 									</div>
@@ -81,7 +81,7 @@ class Scheduling extends Component {
 
 							<div className='col-sm-4'>
 								<article className='team-member-container'>
-									<img src={ photoDanielle } width={ '200px' }alt='Danielle Letayf, Programs & Community at #BUILTBYGIRLS' className='img-circle team-member-img' />
+									<img src={ photoDanielle } width={ '200px' }alt='Danielle Letayf, Programs & Community at On & On' className='img-circle team-member-img' />
 									<div className='team-member-name'>
 											<h4>Danielle Letayf</h4>
 									</div>
@@ -106,4 +106,4 @@ class Scheduling extends Component {
 	}
 }
 
-export default Scheduling;
+export default Appointments;

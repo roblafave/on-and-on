@@ -9,19 +9,20 @@ import firebase from 'firebase';
 
 // Static Pages
 import Home from './pages/Home';
-import Treatments from './pages/Treatments';
-import Scheduling from './pages/Scheduling';
+import Services from './pages/Services';
+import Appointments from './pages/Appointments';
 import Page404 from './pages/Page404';
 
 // Sign Up
-//import Signup1 from './signup/1';
+import Signup1 from './signup/Step1';
 //import Signup2 from './signup/2';
 //import Signup3 from './signup/3';
 
 // Page Title Logic
 let pageMeta = { /* browser title, page header */
-  '/treatments': { title: 'Treatments', header: 'Treatments' },
-  '/scheduling': { title: 'Scheduling', header: 'Scheduling' },
+  '/services': { title: 'Services', header: 'Services' },
+  '/appointments': { title: 'Appointments', header: 'Appointments' },
+  '/welcome': { title: 'Welcome', header: 'Welcome' },
   default: { title: 'Welcome!', header: 'Welcome!' },
 };
 
@@ -40,7 +41,7 @@ function updateTitle() {
     if (!pageMeta[path]) { path = 'default'; }
   }
 
-  document.getElementsByTagName('title')[0].innerText =  'On &amp; On :: ' + pageMeta[path].header;
+  document.getElementsByTagName('title')[0].innerText =  'On & On Wellness Spa - ' + pageMeta[path].header;
 }
 
 ReactDOM.render(
@@ -48,8 +49,9 @@ ReactDOM.render(
 		<Route path='/' component={App}>
 			<IndexRoute component={Home} />
 
-			<Route path='/treatments' component={Treatments}  onEnter={updateTitle} />
-			<Route path='/scheduling' component={Scheduling} onEnter={updateTitle} />
+			<Route path='/services' component={Services}  onEnter={updateTitle} />
+			<Route path='/appointments' component={Appointments} onEnter={updateTitle} />
+			<Route path='/welcome' component={Signup1} onEnter={updateTitle} />
 			<Route path='*' component={Page404} onEnter={updateTitle} />
 
 		</Route>
